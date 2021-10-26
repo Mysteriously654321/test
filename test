@@ -1,0 +1,9 @@
+plane = input("are you ready landing or taking off: ")
+weather = input("is the weather sunny or cloudy: ")
+speed = int(input("what is your wind speed MPH: "))
+if plane == "sunny" and speed == str(30) and plane == "taking off" :
+  print("You are ready to take off")
+elif weather == "cloudy" and speed == "20" and plane == "taking off":
+  print("you are ready to take off")
+
+  print("you are not ready to take off")
